@@ -1,7 +1,31 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/shopping/shopping",
+        "pages/personal/personal",
+        "pages/optimal/optimal"
     ],
+    "tabBar": {
+      "list": [
+        {
+        "pagePath": "pages/shopping/shopping",
+        "text": "扫码购物",
+        "iconPath": "/assets/images/index02.png",
+        "selectedIconPath": "/assets/images/index01.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "每日优选",
+        "iconPath": "/assets/images/product02.png",
+        "selectedIconPath": "/assets/images/product01.png"
+      },
+      {
+        "pagePath": "pages/optimal/optimal",
+        "text": "个人中心",
+        "iconPath": "/assets/images/user02.png",
+        "selectedIconPath": "/assets/images/user01.png"
+      }
+    ]
+    },
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
