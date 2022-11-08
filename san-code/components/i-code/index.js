@@ -4,7 +4,10 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    status : {
+      type : Boolean,
+      value : false
+    }
   },
 
   /**
@@ -20,6 +23,11 @@ Component({
   methods: {
     handleScanCode(){
       this.triggerEvent('scanCode')
+    },
+    handleToCart(){
+      wx.navigateTo({
+        url: '/pages/order/order'
+      })
     }
   }
 })

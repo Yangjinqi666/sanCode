@@ -1,12 +1,14 @@
 {
-    "pages": [
-        "pages/shopping/shopping",
-        "pages/personal/personal",
-        "pages/optimal/optimal"
-    ],
-    "tabBar": {
-      "list": [
-        {
+  "pages": [
+    "pages/shopping/shopping",
+    "pages/personal/personal",
+    "pages/optimal/optimal",
+    "pages/cart/cart",
+    "pages/order/order",
+    "pages/success/success"
+  ],
+  "tabBar": {
+    "list": [{
         "pagePath": "pages/shopping/shopping",
         "text": "扫码购物",
         "iconPath": "/assets/images/index02.png",
@@ -25,13 +27,13 @@
         "selectedIconPath": "/assets/images/user01.png"
       }
     ]
-    },
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
-        "navigationBarTextStyle": "black"
-    },
-    "style": "v2",
-    "sitemapLocation": "sitemap.json"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "扫码购",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }
